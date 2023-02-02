@@ -21,7 +21,6 @@ main(void) {
 		}
 	}
 }
-
 int calcular(int X, int &a, int &b){
 	int resultado;
 	if(X<0){
