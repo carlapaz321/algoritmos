@@ -1,4 +1,5 @@
 #include <stdio.h>
+#include "operaciones.h"
 
 int calcular(int X, int &a, int &b);
 
@@ -8,7 +9,7 @@ main(void) {
 	scanf("%d",&a);
 	printf("Ingrese el segundo nro: ");
 	scanf("%d",&b);
-	sumar(a,b);
+	printf("Suma: %d \n",sumar(a,b));
 	restar(a,b);
 	multiplicar(a,b);
 	dividir(a,b);
