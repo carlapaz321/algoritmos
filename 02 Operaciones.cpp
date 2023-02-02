@@ -10,7 +10,7 @@ main(void) {
 	printf("Ingrese el segundo nro: ");
 	scanf("%d",&b);
 	printf("Suma: %d \n",sumar(a,b));
-	restar(a,b);
-	multiplicar(a,b);
+	printf("Resta: %d \n",restar(a,b));
+	printf("Multiplicacion: %d \n",multiplicar(a,b));
 	dividir(a,b);
 }
